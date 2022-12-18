@@ -1,0 +1,61 @@
+@font-face {
+    font-family: spoody;
+    src: url("pdown.ttf");
+}
+
+#overlay {
+    margin: 8vh auto;
+    height: 83vh;
+    width: 70%;
+    background-color: rgba(58, 2, 2, 0.932);
+    border: 2px solid rgb(242, 5, 5);
+    border-radius: 11px;
+    overflow: hidden;
+}
+
+#title {
+    text-align: center;
+    color: white;
+    font-family: spoody;
+    font-weight: lighter;
+}
+
+#box {
+    background-color: rgba(0, 0, 0, 0.63);
+    height: 60px;
+    top: 80px;
+}
+
+#DefaultAim {
+    margin-left: 9%;
+}
+
+#DefaultHolster {
+    margin-left: 9%;
+}
+
+#FrontHolster {
+    margin-left: 9%;
+}
+
+#AimHilly {
+    margin-left: 9%;
+}
+
+#Train {
+    margin-left: 30%;
+}
+
+.Images {
+    border-radius: 10px;
+    width: 40%;
+    margin: 2% 3%;
+    border: 2px solid white;
+}
+
+.Images:hover {
+    border: 2px solid rgb(242, 5, 5);
+    border-radius: 11px;
+    width: 40%;
+    margin: 2% 3%;
+}
